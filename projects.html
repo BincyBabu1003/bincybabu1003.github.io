@@ -9,6 +9,7 @@
 </head>
 
 <body>
+
 <header>
     <h1>Projects</h1>
     <button id="darkToggle">🌙</button>
@@ -16,41 +17,42 @@
 
 <section>
 
+    <!-- Project Gallery -->
     <div class="gallery">
         <img src="assets/project1.jpg" alt="Project Image">
         <img src="assets/project2.jpg" alt="Project Image">
         <img src="assets/project3.jpg" alt="Project Image">
     </div>
 
+    <!-- Brain Tumor Segmentation Project -->
+    <div class="project-card"> 
+        <h2>Brain Tumor Segmentation (Deep Learning)</h2>
+        <p>
+            A Streamlit-based web application that performs brain tumor segmentation 
+            on MRI images using a UNet deep learning model. The app displays the 
+            uploaded MRI, predicted tumor mask, and a large high-resolution 
+            visualization of the segmented tumor.
+        </p>
 
-   <div class="project-card"> 
-    <h2>Brain Tumor Segmentation (Deep Learning)</h2>
-    <p>
-        A Streamlit-based web application that performs brain tumor segmentation 
-        on MRI images using a UNet deep learning model. The app displays the 
-        uploaded MRI, predicted tumor mask, and a large high-resolution 
-        visualization of the segmented tumor.
-    </p>
-   </div>
+        <ul>
+            <li>Real-time tumor segmentation</li>
+            <li>PyTorch-based UNet model</li>
+            <li>Interactive Streamlit interface</li>
+            <li>Overlay visualization for medical interpretation</li>
+        </ul>
 
-    <ul>
-        <li>Real-time tumor segmentation</li>
-        <li>PyTorch-based UNet model</li>
-        <li>Interactive Streamlit interface</li>
-        <li>Overlay visualization for medical interpretation</li>
-    </ul>
+        <p>
+            <strong>Live Demo:</strong> 
+            <a href="https://braintumorsegmentation-sbtyh6fff3ueyyinw64hnh.streamlit.app" target="_blank">Open App</a>
+        </p>
 
-    <p>
-        <strong>Live Demo:</strong> 
-        <a href="https://braintumorsegmentation-sbtyh6fff3ueyyinw64hnh.streamlit.app" target="_blank">Open App</a>
-    </p>
+        <p>
+            <strong>GitHub Repository:</strong> 
+            <a href="https://github.com/BincyBabu1003/bincybabu1003.github.io/tree/main" target="_blank">View Code</a>
+        </p>
+    </div>
 
-    <p>
-        <strong>GitHub Repository:</strong> 
-        <a href="https://github.com/BincyBabu1003/bincybabu1003.github.io/tree/main" target="_blank">View Code</a>
-    </p>
-</section>
-
+    <!-- Other Projects -->
     <div class="project-card">
         <h2>Privacy-aware Object Detection (Decentralized AI)</h2>
         <p>Designed a privacy-focused object detection system for assistive applications.</p>
@@ -72,10 +74,12 @@
     </div>
 
 </section>
+
 <button class="floating-contact" onclick="window.location.href='contact.html'">
     Let’s Connect
 </button>
 
+<!-- Chatbot -->
 <div id="chatbot">
     <div id="chatbot-header">Ask about my work</div>
     <div id="chatbot-body">
@@ -84,9 +88,12 @@
     <div id="chatbot-input-area">
         <input type="text" id="chatbot-input" placeholder="Type your question...">
         <button id="chatbot-send">Send</button>
+    </div>
+</div>
 
 <footer>
     <p>© 2026 Bincy Babu</p>
 </footer>
+
 </body>
 </html>
